@@ -1,24 +1,33 @@
-# --- Archivos de compilación  ---
-target/
-*.class
-*.jar
-*.war
-
-# --- Archivos de VS Code ---
-.vscode/
-.settings/
-.classpath
-.project
-
-# --- Archivos del Sistema Operativo ---
-.DS_Store
-Thumbs.db
-
-# --- Archivos de ayuda de Spring ---
 HELP.md
-mvnw
-mvnw.cmd
-.mvn/
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# --- Logs y temporales ---
-*.log
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
