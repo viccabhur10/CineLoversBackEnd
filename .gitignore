@@ -1,0 +1,24 @@
+# --- Archivos de compilación  ---
+target/
+*.class
+*.jar
+*.war
+
+# --- Archivos de VS Code ---
+.vscode/
+.settings/
+.classpath
+.project
+
+# --- Archivos del Sistema Operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Archivos de ayuda de Spring ---
+HELP.md
+mvnw
+mvnw.cmd
+.mvn/
+
+# --- Logs y temporales ---
+*.log
